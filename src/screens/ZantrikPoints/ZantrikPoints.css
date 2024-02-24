@@ -1,0 +1,65 @@
+.zantrik-account{
+    background-color: var(--primaryColor);
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex-gap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.refer_card{
+    width: 100%;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.zantrok-screen-bottom-container{
+    background-color: white;
+    overflow-y: scroll;
+    width: 100%;
+    min-height: 60%;
+}
+
+.offer-card{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(243, 237, 237);
+}
+
+.points_used_card{
+    background-color: var(--secondaryColor);
+    padding: 15px 20px;
+    margin: 20px 0;
+    border: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_container{
+    height: 30%;
+    background-color: green;
+    background-image: url("../../assets/carwash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

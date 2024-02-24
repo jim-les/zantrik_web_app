@@ -1,0 +1,28 @@
+.garage-screen{
+    background-color: rgba(245, 245, 245, .8);
+    min-height: 100vh;
+}
+
+.garage-topbar{
+    background-color: white;
+    padding-top: 10px;
+}
+
+.d-flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.garage-cards{
+    border-bottom: 1px solid rgba(169, 169, 169, .5);
+}
+
+.garaga-card-discount{
+    font-size: 12px;
+    background-color: var(--primaryColor);
+    padding: 5px 15px;
+    border-radius: 30px;
+    color: aliceblue;
+    font-weight: 600;
+}
