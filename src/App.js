@@ -11,6 +11,7 @@ import ZantrikAccount from './screens/ZantrikPoints/ZantrikAccount';
 import ZantrikOfferDetails from './screens/ZantrikPoints/ZantrikOfferDetails';
 import Subscription from './screens/Subscription/Subscription';
 import Garage from './screens/Garage/Garage';
+import GarageView from './screens/Garage/GarageView';
 /**
  * @function App
  * @description The main application component
@@ -30,6 +31,7 @@ function App() {
             <Route path='/subscription' element={<Subscription />} />
             
             <Route path='/garage' element={<Garage />} />
+            <Route path='/garage/garage-view' element={<GarageView />} />
         </Routes>
     </Router>
   );

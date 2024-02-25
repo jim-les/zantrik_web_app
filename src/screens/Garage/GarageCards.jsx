@@ -12,13 +12,13 @@ export default function GarageCards({ garages }) {
                         <img 
                             src={garageImage} 
                             alt="img" 
-                            width={80}
+                            width={60}
                             style={{ borderRadius: "8px" }}
                         />
                     </div>
 
                     <div>
-                        <div style={{ display: "flex", gap: "30px", alignItems: "center", width: "100%" }} >
+                        <div style={{ display: "flex", gap: "20px", alignItems: "center", width: "100%" }} >
                             <span> <Wifi style={{ fontSize: "15px"}} /> {garage.distance} meter away </span>
                             <span className='garaga-card-discount'>UPTO {garage.discount} OFF</span>
                         </div>
