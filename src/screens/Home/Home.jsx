@@ -21,8 +21,11 @@ export default function Home() {
         <div className='home-screen'>
             <div className="container">
                 <Topbar />
-                <Link to="/zantrikpoints">
-                    <HomeCardOne label={"We have introduced"} service={"     Points"} icon={zantrikIcon} reversed={false} />
+                <Link to="/zantrikpoints" style={{ textDecoration: 'none'}}>
+                    <div  style={{marginTop: '80px', textDecoration: 'none'}}>
+
+                    <HomeCardOne label={"We have introduced"} service={"Darick Points"} icon={zantrikIcon} reversed={false} />
+                    </div>
                 </Link>
 
                 <div 
