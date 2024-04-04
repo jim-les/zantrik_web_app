@@ -10,8 +10,8 @@ export default function Zantrikpoints() {
     const navigate = useNavigate();
     
     return (
-        <div className='zantrik-points'>
-            <div className="container">
+        <div className='zantrik-points' style={{height: '95vh'}}>
+            <div className="container" style={{height: '100%'}}>
                 <div className="topbar">
                     <div
                         style={{ backgroundColor: "rgb(239, 232, 232)", width: "40px", height: "40px", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer" }}
@@ -37,7 +37,7 @@ export default function Zantrikpoints() {
                 </div>
 
                 <div className="continue_btn"
-                    style={{position: "absolute", bottom: "0px", left: "0", width: "100%", padding: "20px"}}
+                    style={{position: "absolute", bottom: "0", left: "0", width: "100%", padding: "20px"}}
                 >
                     <Button 
                         variant="contained" 
