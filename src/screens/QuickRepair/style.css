@@ -1,0 +1,161 @@
+.allctivities_screen{
+    background-color: rgb(240, 240, 240);
+    min-height: 100vh;
+}
+.allctivities_screen .back_icon{
+    background-color: rgb(240, 240, 240);
+}
+
+.repair_titles{
+    padding: 15px 20px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.services_search_bar{
+    padding: 0 20px;
+}
+
+.services_search_bar input{
+    width: 100%;
+    height: 55px;
+    padding: 0 30px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+}
+
+.services_cars{
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+    gap: 10px;
+    padding: 20px 0;
+    padding-left: 20px;
+}
+
+.services_cars .services_car_card{
+    width: fit-content;
+    background-color: var(--paleGreenColor);
+    min-width: 120px;
+    padding: 8px 0;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+}
+
+.services_cars .services_car_card.active{
+    background-color: var(--primaryColor);
+    color: white;
+}
+
+.call_for_service_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: white;
+}
+
+.call_for_service_btn{
+    background-color: var(--paleGreenColor);
+    color: var(--primaryColor);
+    font-weight: 800;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_item_cards{
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.services_item_cards .service_name{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.services_item_cards .service_description{
+    font-style: 800;
+    color: gray;
+}
+
+.services_item_cards .service_profile img{
+    width: 50px;
+}
+
+.package_top_bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.package_top_bar .back_icon{
+    background-color: var(--lightGray);
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.package_top_bar .filter_icon{
+    background-color: var(--paleGreenColor);
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.package_top_bar .sub_title{
+    color: gray;
+    font-weight: 800;
+}
+
+.package_top_bar .main_title{
+    color: black;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.packages_items{
+    padding: 20px 20px;
+    border-bottom: 2px solid lightgray;
+    font-weight: 600;
+}
+
+.packages_items .isOpen{
+    color: var(--primaryColor);
+}
+
+.packages_items.isClosed{
+    color: red;
+}
+
+.packages_items .package_name{
+    font-weight: 800;
+    font-size: 22px;
+    color: black;
+}
+
+.packages_items .package_price{
+    font-size: 22px;
+}
+.packages_items .point_to_earn{
+    color: var(--primaryColor);
+}
+::-webkit-scrollbar {
+    width: 0; /* width of the scroll bar */
+}

@@ -1,12 +1,19 @@
 import React from 'react';
 import garageImage from '../../assets/garage.jpg';
 import { Wifi } from '@mui/icons-material';
+import { useNavigate } from 'react-router-dom';
 
 export default function GarageCards({ garages }) {
+    const navigate = useNavigate();
+
+    const handleClick = (garageId) => {
+        navigate(`/garage/${garageId}`); // Assuming the route is '/garage/:garageId' where :garageId is the dynamic parameter
+    };
+
     return (
         <div className='garage-card'>
             {garages.map((garage) => (
-            <div key={garage.Garage_id} className="card d-flex-gap garage-cards">
+            <div key={garage.Garage_id} className="card d-flex-gap garage-cards" onClick={() => handleClick(garage.Garage_id)}>
                 <div className="container d-flex-gap">
                     <div className="img_container">
                         <img 

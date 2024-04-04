@@ -75,7 +75,7 @@ export default function ZantrikAccount() {
     
                         <div 
                             style={{fontSize: "20px", color: "white", fontWeight: "600"}}
-                        > Available Zantrik Points</div>
+                        > Available DarikPoints</div>
     
                         <div style={{padding: "20px 0" , fontSize: "30px" , color: "white"}}>
                             <h1><b>{points}</b></h1>
@@ -83,7 +83,7 @@ export default function ZantrikAccount() {
     
                         <div 
                             style={{fontSize: "20px", color: "white", fontWeight: "600"}}
-                        > Use zantrik points to avail free services</div>
+                        > Use Darikpoints to avail free services</div>
     
                         <div className="refer_card">
                             <div>

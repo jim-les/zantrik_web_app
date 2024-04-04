@@ -12,6 +12,9 @@ import ZantrikOfferDetails from './screens/ZantrikPoints/ZantrikOfferDetails';
 import Subscription from './screens/Subscription/Subscription';
 import Garage from './screens/Garage/Garage';
 import GarageView from './screens/Garage/GarageView';
+import LandingScreen from './screens/LandingScreen/LandingScreen';
+import LoginOption from './screens/LandingScreen/LoginOption';
+import OrderDetails from './screens/Order/OrderDetails';
 /**
  * @function App
  * @description The main application component
@@ -21,6 +24,8 @@ function App() {
   return (
     <Router>
         <Routes>
+            <Route path='/landing' element={<LandingScreen />} />
+            <Route path='/login-option' element={<LoginOption />} />
             <Route path='/otp' element={<MobileNumber />} />
             <Route path='/create' element={<CreateAccount />} />
             <Route path='/' element={<Home />} />
@@ -31,7 +36,9 @@ function App() {
             <Route path='/subscription' element={<Subscription />} />
             
             <Route path='/garage' element={<Garage />} />
-            <Route path='/garage/garage-view' element={<GarageView />} />
+            <Route path="/garage/:garageId"  element={<GarageView />} />
+
+            <Route path='/order' element={<OrderDetails />} />
         </Routes>
     </Router>
   );

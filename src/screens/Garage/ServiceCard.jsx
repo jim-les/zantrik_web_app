@@ -57,7 +57,7 @@ export default function ServiceCard({ garageService, name, Image }) {
             
                                 <div>
                                     <h3 style={{ color: "rgba(0, 0, 0, .7)" }}><b>{service.GarageServices_name} </b></h3>
-                                    <p>{service.points} Zantrik Points </p>
+                                    <p>{service.points} DarikPoints </p>
                                 </div>
                             </div>
             

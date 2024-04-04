@@ -22,7 +22,7 @@ export default function Home() {
             <div className="container">
                 <Topbar />
                 <Link to="/zantrikpoints">
-                    <HomeCardOne label={"We have introduced"} service={"Zantrik Points"} icon={zantrikIcon} reversed={false} />
+                    <HomeCardOne label={"We have introduced"} service={"     Points"} icon={zantrikIcon} reversed={false} />
                 </Link>
 
                 <div 

@@ -21,7 +21,7 @@ export default function Zantrikpoints() {
                     </div>
                 </div>
                 <h1 style={{textAlign: "center", fontWeight: "800", fontSize: "40px"}}>
-                    <b>Welcome to Zantrik Points</b>
+                    <b>Welcome to DarikPoints</b>
                 </h1>
 
                 <div style={{display: "flex", alignItems: "center", justifyContent: "center", padding: "20% 0"}}>

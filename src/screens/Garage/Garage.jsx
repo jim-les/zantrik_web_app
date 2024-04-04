@@ -101,7 +101,7 @@ export default function Garage() {
 
                             <div>
                                 <h3 style={{ color: "rgba(0, 0, 0, .7)" }}><b>Full Health Checkup </b></h3>
-                                <p style={{color: "var(--primaryColor)"}}>120 Zantrik points</p>
+                                <p style={{color: "var(--primaryColor)"}}>120 Darikpoints</p>
                             </div>
                         </div>
 
@@ -124,7 +124,7 @@ export default function Garage() {
 
                             <div>
                                 <h3 style={{ color: "rgba(0, 0, 0, .7)" }}><b>Full Health Checkup </b></h3>
-                                <p style={{color: "var(--primaryColor)"}}>120 Zantrik points</p>
+                                <p style={{color: "var(--primaryColor)"}}>120 Darikpoints</p>
                             </div>
                         </div>
 

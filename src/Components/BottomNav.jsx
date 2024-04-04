@@ -18,7 +18,7 @@ export default function BottomNav() {
             <BottomNavigationAction label="Home" icon={<Home />} component={NavLink} to="/" />
             <BottomNavigationAction label="Subscription" icon={<Subscriptions />} component={NavLink} to="/subscription" />
             <BottomNavigationAction label="Garage" icon={<LocalParking />} component={NavLink} to="/garage" />
-            <BottomNavigationAction label="Shop" icon={<ShoppingBasket />} component={NavLink} to="/shop" />
+            <BottomNavigationAction label="Shop" icon={<ShoppingBasket />} component={NavLink} to="/order" />
         </BottomNavigation>
     );
 }

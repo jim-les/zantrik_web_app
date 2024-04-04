@@ -1,0 +1,145 @@
+.confirmOrder{
+    background-color: rgb(240, 240, 240);
+    min-height: 100vh;
+}
+.order_top_bar{
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order_top_bar .back_icon{
+    background-color: var(--lightGray);
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.order_top_bar .print_icon{
+    background-color: var(--paleGreenColor);
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.order_titles{
+    padding: 10px 20px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+
+.choose_delivery_method{
+    padding: 10px 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.garrage_pickup{
+    background-color: var(--textColor);
+    color: white;
+    width: 50%;
+    padding: 17px 0;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+}
+
+.home_delivery{
+    background-color: var(--textColor);
+    color: white;
+    width: 50%;
+    padding: 17px 0;
+    font-weight: 800;
+    border: none;
+    border-radius: 8px;
+}
+
+.garrage_pickup.active{
+    background-color: var(--primaryColor);
+}
+.home_delivery.active{
+    background-color: var(--primaryColor);
+}
+
+.order_options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    border-bottom: 2px solid lightgray;
+}
+
+.oder_option_name{
+    color: black;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+.confirm_order_details{
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.warranty{
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 10px 0;
+    font-weight: 600;
+    background-color: var(--paleGreenColor);
+}
+
+.confirm_order_btn button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.order_packages_list{
+    border: 2px solid lightgray;
+    margin: 10px 20px;
+    border-radius: 15px;
+}
+
+.order_packages_list .item:last-child{
+    border: none;
+}
+
+
+.services_item_cards{
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: 2px solid lightgray;
+    display: flex;
+    gap: 30px;
+}
+
+.services_item_cards .service_name{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.services_item_cards .service_description{
+    font-style: 800;
+    color: gray;
+}
+
+.services_item_cards .service_profile img{
+    width: 50px;
+}
