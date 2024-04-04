@@ -20,7 +20,7 @@ export default function Zantrikpoints() {
                         <KeyboardArrowLeft />
                     </div>
                 </div>
-                <h1 style={{textAlign: "center", fontWeight: "800", fontSize: "40px"}}>
+                <h1 style={{textAlign: "center", fontWeight: "800", fontSize: "35px"}}>
                     <b>Welcome to DarikPoints</b>
                 </h1>
 
