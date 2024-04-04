@@ -25,7 +25,7 @@ export default function Zantrikpoints() {
                 </h1>
 
                 <div style={{display: "flex", alignItems: "center", justifyContent: "center", padding: "20% 0"}}>
-                    <img src={giftIcon} alt="" width={300} />
+                    <img src={giftIcon} alt="" style={{width: '70%'}}/>
                 </div>
 
                 <div className="ways_to_earn_points">
