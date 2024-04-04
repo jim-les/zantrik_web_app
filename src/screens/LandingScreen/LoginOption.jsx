@@ -11,7 +11,7 @@ const LoginOption = () => {
         <div className="login-option">
             <div>
                 <h1>Your vehicle</h1>
-                <h1>Zantrik's responsiblity</h1>
+                <h1>Darick's responsiblity</h1>
 
                 <img src={zantrikointImage} alt="" />
 
