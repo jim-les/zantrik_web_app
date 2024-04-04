@@ -8,7 +8,7 @@ export default function Topbar() {
             <AppBar position="fixed" elevation={0} style={{padding: "10px 0", backgroundColor: "white"}} >
                 <Toolbar sx={{ display: 'flex', justifyContent: 'space-between', backgroundColor: 'white', color: "black" }}>
                     <Typography variant="h5" component="div" fontWeight="bold">
-                        Zantrik
+                        Dirack
                     </Typography>
                     <div>
                         <IconButton color="inherit" >
